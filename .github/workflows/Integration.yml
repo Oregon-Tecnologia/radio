@@ -1,4 +1,4 @@
-name: Laravel
+name: Integrations
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  laravel-tests:
+  laravel:
 
     runs-on: ubuntu-latest
 
