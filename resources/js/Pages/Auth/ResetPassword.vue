@@ -8,18 +8,18 @@
         </div>
 
         <div class="mt-4">
-            <breeze-label for="password" value="Password" />
+            <breeze-label for="password" value="Senha" />
             <breeze-input id="password" type="password" class="mt-1 block w-full" v-model="form.password" required autocomplete="new-password" />
         </div>
 
         <div class="mt-4">
-            <breeze-label for="password_confirmation" value="Confirm Password" />
+            <breeze-label for="password_confirmation" value="Confirmar Senha" />
             <breeze-input id="password_confirmation" type="password" class="mt-1 block w-full" v-model="form.password_confirmation" required autocomplete="new-password" />
         </div>
 
         <div class="flex items-center justify-end mt-4">
             <breeze-button :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
-                Reset Password
+                Alterar senha
             </breeze-button>
         </div>
     </form>

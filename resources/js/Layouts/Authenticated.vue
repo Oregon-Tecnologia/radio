@@ -39,7 +39,7 @@
 
                                     <template #content>
                                         <breeze-dropdown-link :href="route('logout')" method="post" as="button">
-                                            Log Out
+                                            Sair
                                         </breeze-dropdown-link>
                                     </template>
                                 </breeze-dropdown>
